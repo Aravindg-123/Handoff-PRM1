@@ -1,0 +1,5 @@
+model,oof_auroc,mean_fold_auroc,std_fold_auroc,oof_auprc,oof_brier,oof_logloss,n_rows,n_features,feature_set
+RandomForest,0.8718,0.8767,0.0601,0.8136,0.1148,0.361,483,11,11_gate_features_no_NLI
+XGBoost,0.8733,0.8739,0.0624,0.8007,0.1227,0.4617,483,11,11_gate_features_no_NLI
+LogisticRegression,0.8378,0.84,0.0251,0.7347,0.1492,0.4744,483,11,11_gate_features_no_NLI
+SmallMLP,0.8648,0.8639,0.0557,0.8079,0.1179,0.3765,483,11,11_gate_features_no_NLI

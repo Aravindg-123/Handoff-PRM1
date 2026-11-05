@@ -7,7 +7,7 @@ be sent back to Agent A.
 Usage:
     from gate import HandoffGate
     gate = HandoffGate(threshold=0.7)
-    result = gate.check(handoff_text, problem_text)
+    result = gate.check(handoff_text, problem_text, entry_point="solve")
     if result["pass"]:
         # proceed to Agent B
     else:
@@ -47,8 +47,13 @@ class HandoffGate:
         self.feature_cols = bundle["feature_cols"]
         self.threshold = threshold
 
-    def check(self, handoff: str, reference_text: str) -> dict:
-        feats = extract_features(handoff, reference_text)
+    def check(
+        self,
+        handoff: str,
+        reference_text: str,
+        entry_point: str | None = None,
+    ) -> dict:
+        feats = extract_features(handoff, reference_text, entry_point=entry_point)
         X = pd.DataFrame([feats])[self.feature_cols]
 
         score = float(self.model.predict_proba(X)[0, 1])

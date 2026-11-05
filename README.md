@@ -85,7 +85,7 @@ After `train_classifier.py` creates `handoff_prm.joblib`, score a handoff:
 from gate import HandoffGate
 
 gate = HandoffGate(threshold=0.7)
-result = gate.check(handoff_text, problem_text)
+result = gate.check(handoff_text, problem_text, entry_point="solve")
 
 print(result["score"])
 print(result["pass"])
@@ -96,6 +96,10 @@ if not result["pass"]:
 The result contains the probability that the handoff is acceptable, the pass
 decision, all extracted features, and, for blocked handoffs, the feature that
 contributed most negatively to the score.
+
+Pass the same canonical `entry_point` that will be supplied to Agent B. If it
+is unavailable, the function-name feature is marked unknown (0.5) rather than
+being inferred from hidden task metadata.
 
 ## Files
 

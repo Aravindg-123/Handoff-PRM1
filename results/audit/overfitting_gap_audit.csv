@@ -1,0 +1,5 @@
+model,n_rows,n_features,feature_set,train_auroc,oof_auroc,generalization_gap,oof_auprc,status
+RandomForest,483,11,11_gate_features_no_NLI,0.968,0.8718,0.0962,0.8136,[OVERFIT WARNING]
+XGBoost,483,11,11_gate_features_no_NLI,0.9988,0.8733,0.1255,0.8007,[OVERFIT WARNING]
+LogisticRegression,483,11,11_gate_features_no_NLI,0.8439,0.8378,0.0061,0.7347,[LOW GAP]
+SmallMLP,483,11,11_gate_features_no_NLI,0.9226,0.8648,0.0578,0.8079,[OVERFIT WARNING]
