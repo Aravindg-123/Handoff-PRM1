@@ -1,0 +1,6 @@
+a,b,delta,lo,hi
+RandomForest_11feat,XGBoost_11feat,0.015,0.0031,0.0277
+RandomForest_11feat,LogisticRegression_11feat,0.0203,-0.0043,0.0474
+XGBoost_11feat,LogisticRegression_11feat,0.0054,-0.0202,0.0323
+RandomForest_11feat,RandomForest_3feat,0.0665,0.0376,0.0978
+XGBoost_11feat,XGBoost_3feat,0.0634,0.0303,0.0997

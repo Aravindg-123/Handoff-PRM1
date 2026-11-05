@@ -1,0 +1,5 @@
+model,pair_auroc,lo,hi
+all 11,0.9905,0.9798,0.9974
+all minus length_ratio,0.9892,0.9777,0.9968
+length_ratio only,0.9643,0.9398,0.982
+minus length_ratio & sentence_count_ratio,0.9849,0.9703,0.9949

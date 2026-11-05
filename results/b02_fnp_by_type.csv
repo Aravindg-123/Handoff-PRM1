@@ -1,0 +1,12 @@
+corruption_type,n,fnp_mean,fnp_on_original_mean
+entity_omission,16,0.25,0.688
+fake_completion,11,0.0,0.0
+inject_false_constraint,5,0.0,0.0
+invert_objective,14,0.5,0.5
+negate_edge_case,6,0.333,0.333
+none,248,0.649,0.649
+over_summarization,63,0.048,0.762
+signature_rename,14,0.0,0.929
+tool_result_drop,65,0.031,0.831
+truncation,33,0.788,0.818
+wrong_algorithm_name,8,0.625,0.625

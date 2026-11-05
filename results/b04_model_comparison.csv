@@ -1,0 +1,7 @@
+model,auroc,lo,hi,n_valid
+LogisticRegression_3feat,0.8358,0.7876,0.8787,10000
+RandomForest_3feat,0.8512,0.8112,0.8885,10000
+XGBoost_3feat,0.8394,0.7928,0.8809,10000
+LogisticRegression_11feat,0.8974,0.8611,0.9298,10000
+RandomForest_11feat,0.9178,0.8829,0.9478,10000
+XGBoost_11feat,0.9028,0.8652,0.9366,10000

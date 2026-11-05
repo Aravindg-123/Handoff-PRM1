@@ -1,0 +1,2 @@
+method,auroc,ci,per_seed,detection,false_block,op_threshold
+fine-tuned MiniLM-L6 (3 seeds avg),0.8619,"[0.818, 0.901]","[np.float64(0.8523), np.float64(0.8752), np.float64(0.8507)]",0.7064,0.0484,0.5798

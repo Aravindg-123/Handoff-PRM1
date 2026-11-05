@@ -1,0 +1,12 @@
+subset,auroc,ci_lo,ci_hi,n_valid
+clean vs signature_rename,0.825,0.794,0.853,10000
+clean vs entity_omission,0.7,0.576,0.807,2000
+clean vs fake_completion,0.825,0.794,0.853,2000
+clean vs inject_false_constraint,0.825,0.794,0.854,1983
+clean vs invert_objective,0.575,0.439,0.707,2000
+clean vs negate_edge_case,0.658,0.427,0.841,1998
+clean vs over_summarization,0.801,0.76,0.839,2000
+clean vs tool_result_drop,0.809,0.773,0.845,2000
+clean vs truncation,0.431,0.365,0.501,2000
+clean vs wrong_algorithm_name,0.512,0.337,0.696,2000
+ALL (clean vs every corrupted),0.72,0.686,0.754,10000

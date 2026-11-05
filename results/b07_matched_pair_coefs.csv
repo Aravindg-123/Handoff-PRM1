@@ -1,0 +1,12 @@
+,coef_per_sd
+trailing_specificity,-0.768
+verbatim_copy_rate,-0.399
+constraint_count,-0.394
+role_pronoun_rate,-0.117
+cosine_similarity,0.546
+entity_overlap,0.758
+novel_api_rate,0.893
+section_coverage,1.132
+length_ratio,1.239
+sentence_count_ratio,1.382
+function_name_preserved,1.55

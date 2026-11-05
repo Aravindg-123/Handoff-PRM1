@@ -1,0 +1,12 @@
+corruption_type,size,mean,std
+entity_omission,16,0.0754,0.0761
+fake_completion,11,0.0276,0.0313
+inject_false_constraint,5,0.0141,0.0149
+invert_objective,14,0.1204,0.1493
+negate_edge_case,6,0.0632,0.0747
+none,248,0.1046,0.1103
+over_summarization,63,0.2093,0.3538
+signature_rename,14,0.1278,0.1409
+tool_result_drop,65,0.0713,0.149
+truncation,33,0.1432,0.1362
+wrong_algorithm_name,8,0.19,0.1695

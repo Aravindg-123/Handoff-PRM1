@@ -1,0 +1,5 @@
+{
+ "rule": "largest t with clean false-block rate <= 0.05",
+ "threshold_platt": 0.47500690369880694,
+ "threshold_raw": 0.5504194147823097
+}

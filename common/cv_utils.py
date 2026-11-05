@@ -230,15 +230,19 @@ def task_bootstrap_ci(
     if mask is not None:
         d = d[mask]
 
-    groups = {t: g for t, g in d.groupby("task_id")}
-    tasks = np.array(list(groups))
+    # Index-array resampling: same sorted task order and RandomState stream as
+    # the old DataFrame-concat loop, so results are identical but much faster.
+    y = d["label"].values
+    sc = d["_s"].values
+    idx = [np.asarray(ix) for ix in d.groupby("task_id").indices.values()]
     rng = np.random.RandomState(seed)
     vals: list[float] = []
 
     for _ in range(n_boot):
-        sampled = pd.concat([groups[t] for t in rng.choice(tasks, len(tasks))])
-        if sampled["label"].nunique() == 2:
-            vals.append(metric(sampled["label"].values, sampled["_s"].values))
+        pick = np.concatenate([idx[i] for i in rng.choice(len(idx), len(idx))])
+        yb = y[pick]
+        if yb.min() != yb.max():
+            vals.append(metric(yb, sc[pick]))
 
     ci = np.percentile(vals, [2.5, 97.5])
     return ci, len(vals)

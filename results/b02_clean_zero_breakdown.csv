@@ -1,0 +1,7 @@
+,value
+clean rows,248
+clean rows with fnp=0,87
+  ...with NO def line at all,1
+  ...def line uses a different name,86
+  ...name appears only as substring (e.g. name_impl),7
+stored feature == recomputation,1.000

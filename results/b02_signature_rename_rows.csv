@@ -1,0 +1,15 @@
+task_id,expected_name,orig_has_name,orig_def_names,corrupt_def_names,n_mentions_orig,n_mentions_corrupt,feature_value
+task_034,custom_round,True,['custom_round'],['custom_round_impl'],2,0,0.0
+task_041,normalize_whitespace,True,['normalize_whitespace'],['normalize_whitespace_impl'],2,0,0.0
+task_047,resolve_aliases,True,['resolve_aliases'],['resolve_aliases_impl'],1,0,0.0
+task_038,budget_split,True,['budget_split'],['budget_split_impl'],2,0,0.0
+task_048,weighted_median,True,['weighted_median'],['weighted_median_impl'],1,0,0.0
+task_052,trim_outliers,True,['trim_outliers'],['trim_outliers_impl'],2,0,0.0
+task_016,max_depth,True,['max_depth'],['max_depth_impl'],1,0,0.0
+he_024,largest_divisor,True,['largest_divisor'],['largest_divisor_impl'],1,0,0.0
+mbpp_002,similar_elements,False,['find_shared_elements'],['find_shared_elements_impl'],0,0,0.0
+mbpp_067,bell_number,True,['bell_number'],['bell_number_impl'],1,0,0.0
+task_069,parse_log_level,True,['parse_log_level'],['parse_log_level_impl'],2,0,0.0
+mbpp_099,decimal_to_binary,True,['decimal_to_binary'],['decimal_to_binary_impl'],1,0,0.0
+he_072,will_it_fly,True,['will_it_fly'],['will_it_fly_impl'],1,0,0.0
+he_077,iscube,True,['iscube'],['iscube_impl'],3,0,0.0

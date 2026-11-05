@@ -1,0 +1,4 @@
+method,auroc,ci,detection,false_block,op_threshold
+length threshold (tree on length_ratio),0.781,"[0.727, 0.831]",0.6596,0.0484,0.5423
+exact signature match (binary),0.7198,"[0.687, 0.752]",0.8468,0.4073,0.5
+MiniLM embeddings + LR,0.8831,"[0.851, 0.912]",0.6894,0.0484,0.5014

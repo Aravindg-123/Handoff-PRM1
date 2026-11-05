@@ -1,0 +1,8 @@
+,value
+n,483.0
+e2e_ms_p50,252.029
+e2e_ms_p95,357.647
+e2e_ms_mean,264.493
+classifier_only_ms_p50,120.736
+ratio_vs_3933ms_judge_e2e,15.605
+ratio_vs_3933ms_judge_clf_only,32.575

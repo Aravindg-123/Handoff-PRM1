@@ -1,0 +1,12 @@
+type,pairs,clean_higher,clean_lower,ties,frac_clean_higher,sign_test_p,mean_diff
+ALL,235,150,85,0,0.6383,0.0,-0.0033
+entity_omission,16,10,6,0,0.625,0.4545,0.0134
+fake_completion,11,8,3,0,0.7273,0.2266,0.0077
+inject_false_constraint,5,4,1,0,0.8,0.375,0.0104
+invert_objective,14,3,11,0,0.2143,0.0574,0.0001
+negate_edge_case,6,4,2,0,0.6667,0.6875,-0.0045
+over_summarization,63,46,17,0,0.7302,0.0003,-0.0655
+signature_rename,14,4,10,0,0.2857,0.1796,-0.0005
+tool_result_drop,65,48,17,0,0.7385,0.0002,0.047
+truncation,33,21,12,0,0.6364,0.1628,0.0001
+wrong_algorithm_name,8,2,6,0,0.25,0.2891,-0.0028
