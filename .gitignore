@@ -22,21 +22,6 @@ venv/
 env/
 ENV/
 
-# ── Large generated / pipeline-output CSVs ────────────────────────────────────
-# (re-generatable from the pipeline; too big for git)
-rollouts.csv
-rollouts_v*.csv
-corrupted_handoffs.csv
-step4_verified.csv
-step5_corruption_results.csv
-final_dataset.csv
-final_dataset_with_features.csv
-final_dataset_full_features.csv
-features.csv
-features_with_nli.csv
-cascade_results.csv
-cascade_results_optionB.csv
-
 # ── Trained model artifacts ───────────────────────────────────────────────────
 *.joblib
 *.pkl
